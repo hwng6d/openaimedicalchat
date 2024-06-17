@@ -57,16 +57,16 @@ app.post("/", async (req, res) => {
 		If you are really really unsure, translated this sentence to Vietnamese and return "Sorry, I don't know how to help with that." 
 		(note: you have to give answers in Vietnamese either).
 
-    	Context sections:
+    Context sections:
 		- For some extra information (if needed), consider those illnesses listed above as chronic diseases: Alzheimer, Dementia (Mất trí nhớ), Arthritis (Viêm khớp), Asthma (Hen suyễn), 
 		Cancer (Ung thư), Diabetes (Tiểu đường), Epilepsy (Động kinh), Heart disease (Bệnh tim), HIV/AIDS, Multiple sclerosis (Đa xơ cứng), Parkinson.
-    	- ${contextText}
+    - ${contextText}
 
-    	Question: """
-    		${question}
-    	"""
+    Question: """
+    	${question}
+    """
 
-    	Answer as markdown here (answer briefly, clearly and do not repeat the prompt above):
+    Answer as markdown here (answer detailed, clearly and do not repeat the prompt above):
 	`;
 
 	console.log("---asking");
@@ -76,8 +76,6 @@ app.post("/", async (req, res) => {
 		max_tokens: 1024,
 		temperature: 0
 	});
-	console.log("response");
-	console.dir(response, { depth: null });
 
 	console.log("---responding ")
 	res.send({

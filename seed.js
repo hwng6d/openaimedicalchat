@@ -75,10 +75,10 @@ async function generateEmbeddings() {
 		"Bệnh nhân Tô Minh Hoàng bị đau cổ tay do chơi game quá nhiều",
 		"Bệnh nhân Tô Minh Hoàng hay bị đau tay trái mỗi khi mùa xuân tới vì kí ức đau buồn sau khi thua 3-2 giải đấu PES",
 
-		"Bệnh nhân Nông Thị Hoà sinh ngày 02 tháng 09 năm 2003, đang là sinh viên đại học Hà Nội, chuyên ngành tiếng Đức, có 2 anh trai và 1 em gái",
-		"Bệnh nhân Nông Thị Hoà có tiền sử trầm cảm và đau lưng do học quá nhiều",
-		"Bệnh nhân Nông Thị Hoà bị giảm thính lực vì nghe nhạc Rock quá nhiều",
-		"Bệnh nhân Nông Thị Hoà hay bị ù tai khi nghe nhạc của anh Thắng Ngọt vì hậu quả của việc chia tay trong quá khứ",
+		"Bệnh nhân Nông Thị Hoa sinh ngày 02 tháng 09 năm 2003, đang là sinh viên đại học Hà Nội, chuyên ngành tiếng Đức, có 2 anh trai và 1 em gái",
+		"Bệnh nhân Nông Thị Hoa có tiền sử trầm cảm và đau lưng do học quá nhiều",
+		"Bệnh nhân Nông Thị Hoa bị giảm thính lực vì nghe nhạc Rock quá nhiều",
+		"Bệnh nhân Nông Thị Hoa hay bị ù tai khi nghe nhạc của anh Thắng Ngọt vì hậu quả của việc chia tay trong quá khứ",
 
 		// đau bụng 1
 		"Bệnh nhân Hoàng Thị Hường sinh ngày 15 tháng 4 năm 1985, là một nhân viên văn phòng, có 1 con gái.",
@@ -108,7 +108,19 @@ async function generateEmbeddings() {
 		"Bệnh nhân Phạm Văn Chiến sinh ngày 20 tháng 12 năm 2008, là một học sinh cấp 3.",
 		"Bệnh nhân Phạm Văn Chiến có cơ địa khó đông máu và dễ bị sẹo lồi sau tổn thương da",
 		"Bệnh nhân Phạm Văn Chiến vừa bị tai nạn giao thông và thương tích 70%",
-		"Bệnh nhân Phạm Văn Chiến sau khi được cấp cứu thì bác sĩ gửi về nhà cho gia đình có hướng xử lý tiếp theo vì gần như không thể qua khỏi nữa"
+		"Bệnh nhân Phạm Văn Chiến sau khi được cấp cứu thì bác sĩ gửi về nhà cho gia đình có hướng xử lý tiếp theo vì gần như không thể qua khỏi nữa",
+
+		// mãn tính: hen suyễn
+		"Bệnh nhân Phạm Thị Hương sinh ngày 17 tháng 11 năm 2000, là một nhân viên văn phòng.",
+		"Bệnh nhân Phạm Thị Hương từ lúc 15 tuổi cho đến nay có lịch sử bị hen suyễn",
+		"Bệnh nhân Phạm Thị Hương ít vận động thể thao và thường xuyên ngồi lì trong phòng kín",
+		"Bệnh nhân Phạm Thị Hương thường xuyên sử dụng thuốc xịt hen",
+
+		// mãn tính: hen suyễn
+		"Bệnh nhân Tô Bá Cường sinh ngày 09 tháng 11 năm 1944, là một thợ máy đã nghỉ hưu",
+		"Bệnh nhân Tô Bá Cường từ lúc 60 tuổi đến hay hay bị chứng mất trí nhớ và lẫn do tuổi già",
+		"Bệnh nhân Tô Bá Cường trước đây được bác sĩ ở bệnh viện khác dặn dò theo dõi thường xuyên, giữ trạng thái tích cực",
+
 	];
 
 	for (let i = 0; i < documents.length; i++) {
