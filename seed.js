@@ -19,66 +19,66 @@ async function generateEmbeddings() {
 		"Bệnh nhân Đinh Công Duy bị giãn dây chằn do trước đây vận động nhiều ở chân",
 		"Bệnh nhân Đinh Công Duy hay bị đau nửa đầu khi vào thời gian thi cử do áp lực giảng dạy",
 
-		"Bệnh nhân Lê Thị Hồng Nhung sinh ngày 12 tháng 2 năm 1965, là một nhân viên kế toán, có 2 người con, 1 gái, 1 trai.", 
-		"Bệnh nhân Lê Thị Hồng Nhung có tiền sử tiểu đường và dị ứng phấn hoa.", 
-		"Bệnh nhân Lê Thị Hồng Nhung bị thoái hóa đốt sống cổ do ngồi làm việc lâu.", 
+		"Bệnh nhân Lê Thị Hồng Nhung sinh ngày 12 tháng 2 năm 1965, là một nhân viên kế toán, có 2 người con, 1 gái, 1 trai.",
+		"Bệnh nhân Lê Thị Hồng Nhung có tiền sử tiểu đường và dị ứng phấn hoa.",
+		"Bệnh nhân Lê Thị Hồng Nhung bị thoái hóa đốt sống cổ do ngồi làm việc lâu.",
 		"Bệnh nhân Lê Thị Hồng Nhung hay bị mất ngủ do căng thẳng công việc và áp lực gia đình.",
 
-		"Bệnh nhân Nguyễn Văn Bình sinh ngày 25 tháng 8 năm 1975, là một kỹ sư xây dựng, có 1 người con trai.", 
-		"Bệnh nhân Nguyễn Văn Bình có tiền sử cao huyết áp và dị ứng thuốc kháng sinh.", 
-		"Bệnh nhân Nguyễn Văn Bình bị thoát vị đĩa đệm do lao động nặng.", 
+		"Bệnh nhân Nguyễn Văn Bình sinh ngày 25 tháng 8 năm 1975, là một kỹ sư xây dựng, có 1 người con trai.",
+		"Bệnh nhân Nguyễn Văn Bình có tiền sử cao huyết áp và dị ứng thuốc kháng sinh.",
+		"Bệnh nhân Nguyễn Văn Bình bị thoát vị đĩa đệm do lao động nặng.",
 		"Bệnh nhân Nguyễn Văn Bình thường xuyên bị stress và đau đầu do áp lực công việc và dự án.",
 
-		"Bệnh nhân Trần Thị Lan sinh ngày 3 tháng 3 năm 1980, là một nhân viên văn phòng, có 2 người con, 1 gái, 1 trai.", 
-		"Bệnh nhân Trần Thị Lan có tiền sử hen suyễn và dị ứng lông thú.", 
-		"Bệnh nhân Trần Thị Lan bị viêm khớp gối do thiếu vận động.", 
+		"Bệnh nhân Trần Thị Lan sinh ngày 3 tháng 3 năm 1980, là một nhân viên văn phòng, có 2 người con, 1 gái, 1 trai.",
+		"Bệnh nhân Trần Thị Lan có tiền sử hen suyễn và dị ứng lông thú.",
+		"Bệnh nhân Trần Thị Lan bị viêm khớp gối do thiếu vận động.",
 		"Bệnh nhân Trần Thị Lan hay bị chóng mặt và mệt mỏi do công việc căng thẳng và thiếu ngủ.",
 
-		"Bệnh nhân Phạm Minh Hoàng sinh ngày 10 tháng 10 năm 1968, là một lái xe tải, có 3 người con, 2 gái, 1 trai.", 
-		"Bệnh nhân Phạm Minh Hoàng có tiền sử bệnh gan và dị ứng với nấm mốc.", 
-		"Bệnh nhân Phạm Minh Hoàng bị viêm gân cổ tay do lái xe nhiều.", 
+		"Bệnh nhân Phạm Minh Hoàng sinh ngày 10 tháng 10 năm 1968, là một lái xe tải, có 3 người con, 2 gái, 1 trai.",
+		"Bệnh nhân Phạm Minh Hoàng có tiền sử bệnh gan và dị ứng với nấm mốc.",
+		"Bệnh nhân Phạm Minh Hoàng bị viêm gân cổ tay do lái xe nhiều.",
 		"Bệnh nhân Phạm Minh Hoàng thường xuyên bị đau lưng và căng cơ do công việc lái xe.",
 
-		"Bệnh nhân Nguyễn Thị Hạnh sinh ngày 14 tháng 6 năm 1973, là một đầu bếp, có 2 người con trai.", 
-		"Bệnh nhân Nguyễn Thị Hạnh có tiền sử bệnh dạ dày và dị ứng sữa.", 
-		"Bệnh nhân Nguyễn Thị Hạnh bị viêm khớp tay do công việc bếp núc.", 
+		"Bệnh nhân Nguyễn Thị Hạnh sinh ngày 14 tháng 6 năm 1973, là một đầu bếp, có 2 người con trai.",
+		"Bệnh nhân Nguyễn Thị Hạnh có tiền sử bệnh dạ dày và dị ứng sữa.",
+		"Bệnh nhân Nguyễn Thị Hạnh bị viêm khớp tay do công việc bếp núc.",
 		"Bệnh nhân Nguyễn Thị Hạnh hay bị lo âu và đau đầu do áp lực công việc và gia đình.",
 
-		"Bệnh nhân Trần Văn Cường sinh ngày 20 tháng 11 năm 1971, là một nhân viên bảo vệ, có 1 người con gái.", 
-		"Bệnh nhân Trần Văn Cường có tiền sử bệnh tim và dị ứng hải sản.", 
-		"Bệnh nhân Trần Văn Cường bị giãn tĩnh mạch chân do đứng nhiều.", 
+		"Bệnh nhân Trần Văn Cường sinh ngày 20 tháng 11 năm 1971, là một nhân viên bảo vệ, có 1 người con gái.",
+		"Bệnh nhân Trần Văn Cường có tiền sử bệnh tim và dị ứng hải sản.",
+		"Bệnh nhân Trần Văn Cường bị giãn tĩnh mạch chân do đứng nhiều.",
 		"Bệnh nhân Trần Văn Cường thường xuyên bị mất ngủ và lo lắng do công việc căng thẳng.",
 
-		"Bệnh nhân Lê Minh Tú sinh ngày 30 tháng 5 năm 1976, là một nhà báo, có 2 người con gái.", 
-		"Bệnh nhân Lê Minh Tú có tiền sử suy thận và dị ứng thuốc kháng sinh.", 
-		"Bệnh nhân Lê Minh Tú bị thoái hóa khớp gối do công việc di chuyển nhiều.", 
+		"Bệnh nhân Lê Minh Tú sinh ngày 30 tháng 5 năm 1976, là một nhà báo, có 2 người con gái.",
+		"Bệnh nhân Lê Minh Tú có tiền sử suy thận và dị ứng thuốc kháng sinh.",
+		"Bệnh nhân Lê Minh Tú bị thoái hóa khớp gối do công việc di chuyển nhiều.",
 		"Bệnh nhân Lê Minh Tú hay bị căng thẳng và đau đầu do áp lực công việc và deadline.",
 
-		"Bệnh nhân Phạm Thị Thu sinh ngày 8 tháng 1 năm 1982, là một giáo viên mầm non, có 1 người con trai.", 
-		"Bệnh nhân Phạm Thị Thu có tiền sử viêm xoang và dị ứng phấn hoa.", 
-		"Bệnh nhân Phạm Thị Thu bị đau cổ tay do công việc chăm sóc trẻ.", 
+		"Bệnh nhân Phạm Thị Thu sinh ngày 8 tháng 1 năm 1982, là một giáo viên mầm non, có 1 người con trai.",
+		"Bệnh nhân Phạm Thị Thu có tiền sử viêm xoang và dị ứng phấn hoa.",
+		"Bệnh nhân Phạm Thị Thu bị đau cổ tay do công việc chăm sóc trẻ.",
 		"Bệnh nhân Phạm Thị Thu thường xuyên bị mệt mỏi và thiếu ngủ do công việc và gia đình.",
 
-		"Bệnh nhân Nguyễn Văn Hùng sinh ngày 19 tháng 9 năm 1969, là một nhân viên bưu điện, có 3 người con, 2 trai, 1 gái.", 
-		"Bệnh nhân Nguyễn Văn Hùng có tiền sử bệnh thận và dị ứng côn trùng.", 
-		"Bệnh nhân Nguyễn Văn Hùng bị viêm khớp lưng do công việc mang vác nặng.", 
+		"Bệnh nhân Nguyễn Văn Hùng sinh ngày 19 tháng 9 năm 1969, là một nhân viên bưu điện, có 3 người con, 2 trai, 1 gái.",
+		"Bệnh nhân Nguyễn Văn Hùng có tiền sử bệnh thận và dị ứng côn trùng.",
+		"Bệnh nhân Nguyễn Văn Hùng bị viêm khớp lưng do công việc mang vác nặng.",
 		"Bệnh nhân Nguyễn Văn Hùng hay bị đau đầu và mất ngủ do áp lực công việc và gia đình.",
 
-		"Bệnh nhân Đặng Thị Thanh sinh ngày 5 tháng 7 năm 1974, là một thợ may, có 2 người con gái.", 
-		"Bệnh nhân Đặng Thị Thanh có tiền sử bệnh tiểu đường và dị ứng hải sản.", 
-		"Bệnh nhân Đặng Thị Thanh bị đau vai gáy do ngồi may lâu.", 
+		"Bệnh nhân Đặng Thị Thanh sinh ngày 5 tháng 7 năm 1974, là một thợ may, có 2 người con gái.",
+		"Bệnh nhân Đặng Thị Thanh có tiền sử bệnh tiểu đường và dị ứng hải sản.",
+		"Bệnh nhân Đặng Thị Thanh bị đau vai gáy do ngồi may lâu.",
 		"Bệnh nhân Đặng Thị Thanh thường xuyên bị đau đầu và mệt mỏi do công việc và thiếu nghỉ ngơi.",
 
 		// không nghiêm trọng
 		"Bệnh nhân Tô Minh Hoàng sinh ngày 17 tháng 1 năm 1991, đang là chuyên gia marketing, có 6 người con, 3 gái, 2 trai và một con rơi",
-        "Bệnh nhân Tô Minh Hoàng có tiền sử đau đầu và dị ứng da liễu",
-        "Bệnh nhân Tô Minh Hoàng bị đau cổ tay do chơi game quá nhiều",
-        "Bệnh nhân Tô Minh Hoàng hay bị đau tay trái mỗi khi mùa xuân tới vì kí ức đau buồn sau khi thua 3-2 giải đấu PES",
+		"Bệnh nhân Tô Minh Hoàng có tiền sử đau đầu và dị ứng da liễu",
+		"Bệnh nhân Tô Minh Hoàng bị đau cổ tay do chơi game quá nhiều",
+		"Bệnh nhân Tô Minh Hoàng hay bị đau tay trái mỗi khi mùa xuân tới vì kí ức đau buồn sau khi thua 3-2 giải đấu PES",
 
 		"Bệnh nhân Nông Thị Hoà sinh ngày 02 tháng 09 năm 2003, đang là sinh viên đại học Hà Nội, chuyên ngành tiếng Đức, có 2 anh trai và 1 em gái",
-        "Bệnh nhân Nông Thị Hoà có tiền sử trầm cảm và đau lưng do học quá nhiều",
-        "Bệnh nhân Nông Thị Hoà bị giảm thính lực vì nghe nhạc Rock quá nhiều",
-        "Bệnh nhân Nông Thị Hoà hay bị ù tai khi nghe nhạc của anh Thắng Ngọt vì hậu quả của việc chia tay trong quá khứ",
+		"Bệnh nhân Nông Thị Hoà có tiền sử trầm cảm và đau lưng do học quá nhiều",
+		"Bệnh nhân Nông Thị Hoà bị giảm thính lực vì nghe nhạc Rock quá nhiều",
+		"Bệnh nhân Nông Thị Hoà hay bị ù tai khi nghe nhạc của anh Thắng Ngọt vì hậu quả của việc chia tay trong quá khứ",
 
 		// đau bụng 1
 		"Bệnh nhân Hoàng Thị Hường sinh ngày 15 tháng 4 năm 1985, là một nhân viên văn phòng, có 1 con gái.",
@@ -110,6 +110,7 @@ async function generateEmbeddings() {
 		"Bệnh nhân Phạm Văn Chiến vừa bị tai nạn giao thông và thương tích 70%",
 		"Bệnh nhân Phạm Văn Chiến sau khi được cấp cứu thì bác sĩ gửi về nhà cho gia đình có hướng xử lý tiếp theo vì gần như không thể qua khỏi nữa"
 	];
+
 	for (let i = 0; i < documents.length; i++) {
 		const doc = documents[i];
 		console.log("---processing pre-data: ", doc);
