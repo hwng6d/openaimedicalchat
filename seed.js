@@ -102,9 +102,16 @@ async function generateEmbeddings() {
 		"Bệnh nhân Phạm Văn An sinh ngày 10 tháng 9 năm 1965, là một công nhân xây dựng, có 2 con gái.",
 		"Bệnh nhân Phạm Văn An có tiền sử suy thận mạn tính giai đoạn cuối và dị ứng penicillin.",
 		"Bệnh nhân Phạm Văn An bị suy nhược cơ thể và khó thở.",
-		"Bệnh nhân Phạm Văn An tình trạng bệnh đang tiến triển nặng và sắp tử vong."
+		"Bệnh nhân Phạm Văn An tình trạng bệnh đang tiến triển nặng và sắp tử vong.",
+
+		// trở nặng 3
+		"Bệnh nhân Phạm Văn Chiến sinh ngày 20 tháng 12 năm 2008, là một học sinh cấp 3.",
+		"Bệnh nhân Phạm Văn Chiến có cơ địa khó đông máu và dễ bị sẹo lồi sau tổn thương da",
+		"Bệnh nhân Phạm Văn Chiến vừa bị tai nạn giao thông và thương tích 70%",
+		"Bệnh nhân Phạm Văn Chiến sau khi được cấp cứu thì bác sĩ gửi về nhà cho gia đình có hướng xử lý tiếp theo vì gần như không thể qua khỏi nữa"
 	];
-	for (const doc of documents) {
+	for (let i = 0; i < documents.length; i++) {
+		const doc = documents[i];
 		console.log("---processing pre-data: ", doc);
 		const input = doc.replace(/\n/g, '');
 		// 2.2. turn string of custom data into vector (embedding)
@@ -119,7 +126,7 @@ async function generateEmbeddings() {
 			content: doc,
 			embedding
 		});
-		console.log(`---done ?/ ${documents.length}`, doc);
+		console.log(`---done ${i + 1}/${documents.length}`, doc);
 	}
 }
 
