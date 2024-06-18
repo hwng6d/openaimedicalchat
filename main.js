@@ -1,3 +1,5 @@
+// Copilot v2 to analyze patient data and provide personalized treatment plans, medication recommendations, or therapy options for pre-stage imaging tasks
+
 import express from 'express';
 import bodyParser from 'body-parser';
 import { createClient } from "@supabase/supabase-js";

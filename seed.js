@@ -1,3 +1,5 @@
+// Copilot v2 to analyze patient data and provide personalized treatment plans, medication recommendations, or therapy options for pre-stage imaging tasks
+
 import { createClient } from "@supabase/supabase-js";
 import OpenAI from "openai";
 import dotenv from 'dotenv';
@@ -87,10 +89,14 @@ async function generateEmbeddings() {
 		"Bệnh nhân Hoàng Thị Hường thường xuyên bị căng thẳng và mệt mỏi do công việc và gia đình.",
 
 		// đau bụng 2
-		"Bệnh nhân Trần Văn Hòa sinh ngày 22 tháng 2 năm 1972, là một lái xe buýt, có 2 con trai.",
-		"Bệnh nhân Trần Văn Hòa có tiền sử hội chứng ruột kích thích và dị ứng tôm.",
-		"Bệnh nhân Trần Văn Hòa bị đau bụng quặn và tiêu chảy kèm triệu chứng đầy hơi và khó chịu.",
-		"Bệnh nhân Trần Văn Hòa hay bị căng thẳng và lo âu do công việc và áp lực tài chính.",
+		// "Bệnh nhân Trần Văn Hòa sinh ngày 22 tháng 2 năm 1972, là một lái xe buýt, có 2 con trai.",
+		// "Bệnh nhân Trần Văn Hòa có tiền sử hội chứng ruột kích thích và dị ứng tôm.",
+		// "Bệnh nhân Trần Văn Hòa bị đau bụng quặn và tiêu chảy kèm triệu chứng đầy hơi và khó chịu.",
+		// "Bệnh nhân Trần Văn Hòa hay bị căng thẳng và lo âu do công việc và áp lực tài chính.",
+		"Bệnh nhân Phan Vũ Anh Tiến sinh ngày 22 tháng 2 năm 1972, là một lái xe buýt, có 2 con trai.",
+		"Bệnh nhân Phan Vũ Anh Tiến có tiền sử hội chứng ruột kích thích và dị ứng tôm.",
+		"Bệnh nhân Phan Vũ Anh Tiến bị đau bụng quặn và tiêu chảy kèm triệu chứng đầy hơi và khó chịu.",
+		"Bệnh nhân Phan Vũ Anh Tiến hay bị căng thẳng và lo âu do công việc và áp lực tài chính.",
 
 		// trở nặng 1
 		"Bệnh nhân Nguyễn Thị Mai sinh ngày 17 tháng 1 năm 1950, là một nội trợ, có 3 con, 2 gái, 1 trai.",
@@ -120,7 +126,6 @@ async function generateEmbeddings() {
 		"Bệnh nhân Tô Bá Cường sinh ngày 09 tháng 11 năm 1944, là một thợ máy đã nghỉ hưu",
 		"Bệnh nhân Tô Bá Cường từ lúc 60 tuổi đến hay hay bị chứng mất trí nhớ và lẫn do tuổi già",
 		"Bệnh nhân Tô Bá Cường trước đây được bác sĩ ở bệnh viện khác dặn dò theo dõi thường xuyên, giữ trạng thái tích cực",
-
 	];
 
 	for (let i = 0; i < documents.length; i++) {
