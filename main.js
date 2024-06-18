@@ -34,7 +34,7 @@ app.post("/", async (req, res) => {
 	const { data: documents } = await supabaseClient.rpc('match_documents', {
 		query_embedding: inputEmbedding,
 		match_threshold: 0.68,	// 0.78, // Choose an appropriate threshold for your data
-		match_count: 10, // Choose the number of matches
+		match_count: 30, // Choose the number of matches
 	});
 
 	let tokenCount = 0, contextText = '';
